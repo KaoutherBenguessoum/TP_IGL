@@ -20,7 +20,7 @@ router.post('/', async (req,res) => {
             res.status(200).json({'Note': 'Note added successfully'});
         })
         .catch(err => {
-            res.status(400).send(err);
+            res.status(400).send('adding new Note failed');
         });
 });
 

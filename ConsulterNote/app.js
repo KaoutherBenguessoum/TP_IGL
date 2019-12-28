@@ -16,4 +16,4 @@ const noteRoute=require('./noteroute');
 app.use("/note",noteRoute);
 
 //listen to server
-app.listen(3000);
+app.listen(1234);
